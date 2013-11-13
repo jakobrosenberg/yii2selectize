@@ -2,7 +2,9 @@
 
 namespace Simpletree\Selectize;
 
+
 use yii\web\AssetBundle;
+use yii\web\View;
 
 /**
  * @author Jakob Rosenberg <jakobrosenberg@gmail.com>
