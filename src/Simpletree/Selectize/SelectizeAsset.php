@@ -21,8 +21,4 @@ class SelectizeAsset extends AssetBundle
 		'css/selectize.css',
 	);
 
-    public $jsOptions = array(
-        'position'=>View::POS_HEAD
-    );
-
 }
