@@ -2,6 +2,7 @@
     "name": "simpletree/yii2selectize",
     "type": "yii2-extension",
     "require": {
+        "yiisoft/yii2-jui": "*",
         "yiisoft/yii2": "*"
     },
     "description": "Selectize extension for Yii 2.",
