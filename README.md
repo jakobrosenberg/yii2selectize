@@ -1,4 +1,4 @@
 yii2selectize
 =============
 
-Selectize for Yii 2
+Selectize AssetBundle for Yii 2
