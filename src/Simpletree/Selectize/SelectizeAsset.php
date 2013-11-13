@@ -2,6 +2,8 @@
 
 namespace Simpletree\Selectize;
 
+use yii\web\AssetBundle;
+
 /**
  * @author Jakob Rosenberg <jakobrosenberg@gmail.com>
  */
