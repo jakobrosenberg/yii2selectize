@@ -1,0 +1,20 @@
+{
+    "name": "simpletree/yii2selectize",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "description": "Selectize extension for Yii 2.",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Jakob Rosenberg",
+            "email": "jakobrosenberg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Simpletree\\Selectize\\": "src/"
+        }
+    }
+}
