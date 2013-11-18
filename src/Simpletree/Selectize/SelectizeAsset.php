@@ -8,6 +8,7 @@ use yii\web\View;
 
 /**
  * @author Jakob Rosenberg <jakobrosenberg@gmail.com>
+ * @var $defaultCss
  */
 class SelectizeAsset extends AssetBundle
 {
@@ -17,8 +18,30 @@ class SelectizeAsset extends AssetBundle
         'js/standalone/selectize.min.js',
     );
 
-	public $css = array(
-		'css/selectize.css',
-	);
+
+    public function getCss()
+    {
+        return $this->baseUrl.'/css/selectize.css';
+    }
+
+    public function getDefaultCss()
+    {
+        return $this->baseUrl.'/css/selectize.default.css';
+    }
+
+    public function getLegacyCss()
+    {
+        return $this->baseUrl.'/css/selectize.legacy.css';
+    }
+
+    public function getBootstrap2Css()
+    {
+        return $this->baseUrl.'/css/selectize.bootstrap2.css';
+    }
+
+    public function getBootstrap3Css()
+    {
+        return $this->baseUrl.'/css/selectize.bootstrap3.css';
+    }
 
 }
